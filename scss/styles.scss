@@ -89,13 +89,15 @@ h1, h2, h3, h4, a {
 .carousel-caption{
   right: 15%;
   left: 15%;
+  padding-bottom: 91px;
   ul{
     width: 100%;
     float: left;
     width: 100%;
-    max-width: 1087px;
+    max-width: 804px;
     float: none;
     margin: auto;
+    padding-left: 32px;
     li{
       width: 30.266789%;
       display: inline-block;
@@ -106,16 +108,23 @@ h1, h2, h3, h4, a {
       a{
         background-color: #092340;
         font-weight: 900;
-        padding: 18px 10px;
-        font-size: 2em;
+        padding: 12px 5px;
+        font-size: 1em;
         letter-spacing: 1px;
+        &:hover{
+          background-color: #092340;
+          color: #eeeeee;
+        }
       }
     }
   }
 }
+.carousel-indicators{
+  bottom: 2px;
+}
 .block-title{
   text-transform: uppercase;
-  padding-bottom: 30px;
+  padding-bottom: 38px;
   position: relative;
   margin-bottom: 20px;
   &:after{
@@ -123,8 +132,8 @@ h1, h2, h3, h4, a {
     position: absolute;
     bottom: 0;
     left:50%;
-    width: 100px;
-    height: 8px;
+    width: 75px;
+    height: 6px;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -136,11 +145,19 @@ h1, h2, h3, h4, a {
     font-weight: 900;
   }
   span{
-    font-size: 56px;
+    font-size: 49px;
     line-height: .7em;
   }
   .color-red{
     margin-bottom: 10px;
+    font-size: 24px;
+  }
+  .color-blue{
+    letter-spacing: -0.4px;
+    font-size: 49px;
+  }
+  .color-white{
+    letter-spacing: -1.3px;
   }
 }
 .block-2 {
@@ -153,19 +170,28 @@ h1, h2, h3, h4, a {
     position: absolute;
     left: 13%;
     top: 50%;
-    -webkit-transform: translateY(-69%);
-    -moz-transform: translateY(-69%);
-    -ms-transform: translateY(-69%);
-    -o-transform: translateY(-69%);
-    transform: translateY(-69%);
-    max-width: 600px;
+    -webkit-transform: translateY(-53%);
+    -moz-transform: translateY(-53%);
+    -ms-transform: translateY(-53%);
+    -o-transform: translateY(-53%);
+    transform: translateY(-53%);
+    max-width: 457px;
+    .content{
+      max-width: 447px;
+      letter-spacing: 0.4px;
+      margin-left: -10px;
+      p{
+        margin-bottom: 32px;
+      }
+    }
   }
   .block-title{
-    max-width: 600px;
+    max-width: 427px;
     display: block;
     overflow: hidden;
     .color-red{
       text-align: center;
+      padding-right: 18px;
     }
     .color-white{
       float: right;
@@ -177,6 +203,17 @@ h1, h2, h3, h4, a {
   .button{
     background-color: $color-blue-light1;
     color: #000;
-    padding:10px 20px;
+    padding: 7px 18px 6px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 11px;
+    line-height: 2em;
+  }
+  .row{
+    margin: 0;
+  }
+  .block-content{
+    margin: 0;
+    padding: 0;
   }
 }
