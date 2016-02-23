@@ -1,3 +1,12 @@
-body { font-family: 'Raleway', sans-serif; font-size: 14px; color: #000; margin: 0; }
+body { font-family: 'Raleway', sans-serif; font-size: 14px; color: #fff; margin: 0; }
+
+.navbar-default { background-color: #006ac7; border: 0; margin-bottom: 0; min-height: 45px; }
+.navbar-default .container-fluid { max-width: 1080px; }
+.navbar-default .container-fluid .navbar-brand { max-width: 250px; margin-left: 5px; height: auto; padding: 0; margin-top: 9px; }
+.navbar-default .container-fluid .navbar-brand > img { width: 100%; max-width: 31px; float: left; }
+.navbar-default .container-fluid .navbar-brand span { text-transform: uppercase; font-weight: 900; white-space: nowrap; color: #fff; float: left; display: inline-block; padding-top: 6px; letter-spacing: -0.11px; font-size: 16px; }
+.navbar-default .navbar-nav > li > a { color: #fff; font-weight: 900; padding: 11px 13px 12px 9px; font-size: 14px; letter-spacing: 0.9px; }
+.navbar-default .navbar-nav > li.gly-icon > a { padding: 12px 13px; font-size: 16px; }
+.navbar-default .navbar-nav > li.gly-icon.menu-hamburger a { background: #011f41; padding: 12px 14px; }
 
 /*# sourceMappingURL=styles.css.map */

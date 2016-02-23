@@ -1,6 +1,67 @@
+$color-white: #fff;
+$color-black: #000;
+$color-blue: #006ac7;
+$color-dark-blue:#011f41;
+
 body{
   font-family: 'Raleway', sans-serif;
   font-size:14px;
-  color: #000;
+  color: $color-white;
   margin: 0;
+}
+.navbar-default{
+  background-color: $color-blue;
+  border: 0;
+  margin-bottom: 0;
+  min-height: 45px;
+  .container-fluid {
+    max-width: 1080px;
+    .navbar-brand{
+      max-width: 250px;
+      margin-left: 5px;
+      height: auto;
+      padding: 0;
+      margin-top: 9px;
+      > img {
+        width: 100%;
+        max-width: 31px;
+        float: left;
+      }
+      span{
+        text-transform: uppercase;
+        font-weight:900;
+        white-space: nowrap;
+        color: $color-white;
+        float: left;
+        display: inline-block;
+        padding-top: 6px;
+        letter-spacing: -0.11px;
+        font-size: 16px;
+      }
+    }
+  }
+
+  .navbar-nav{
+    > li {
+      > a{
+        color: $color-white;
+        font-weight: 900;
+        padding: 11px 13px 12px 9px;
+        font-size: 14px;
+        letter-spacing: 0.9px;
+      }
+      &.gly-icon{
+        > a{
+          padding: 12px 13px;
+          font-size: 16px;
+        }
+        &.menu-hamburger{
+          a{
+            background: $color-dark-blue;
+            padding: 12px 14px;
+          }
+        }
+      }
+    }
+  }
 }
