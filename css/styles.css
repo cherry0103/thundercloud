@@ -2,6 +2,12 @@ body { font-family: 'Raleway', sans-serif; font-size: 14px; color: #fff; margin:
 
 h1, h2, h3, h4, a { color: #fff; }
 
+.color-red { color: #cd0258; }
+
+.color-blue { color: #0093fd; }
+
+.color-white { color: #fff; }
+
 .navbar-default { background-color: #006ac7; border: 0; margin-bottom: 0; min-height: 45px; }
 .navbar-default .container-fluid { max-width: 1080px; }
 .navbar-default .container-fluid .navbar-brand { max-width: 250px; margin-left: 5px; height: auto; padding: 0; margin-top: 9px; }
@@ -19,5 +25,11 @@ h1, h2, h3, h4, a { color: #fff; }
 .carousel-caption ul li { width: 30.266789%; display: inline-block; margin-left: 4.59981%; }
 .carousel-caption ul li:first-child { margin-left: 0; }
 .carousel-caption ul li a { background-color: #092340; font-weight: 900; padding: 18px 10px; font-size: 2em; letter-spacing: 1px; }
+
+.block-2 { padding: 0; }
+.block-2 img { width: 100%; max-width: 100%; }
+.block-2 .block-child { position: absolute; left: 10%; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); }
+
+.block-title { text-transform: uppercase; font-weight: 900; }
 
 /*# sourceMappingURL=styles.css.map */
