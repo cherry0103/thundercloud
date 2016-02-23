@@ -185,20 +185,21 @@ h1, h2, h3, h4, a {
       }
     }
   }
-  .block-title{
+  .block-title {
     max-width: 427px;
     display: block;
     overflow: hidden;
-    .color-red{
-      text-align: center;
-      padding-right: 18px;
-    }
-    .color-white{
-      float: right;
-    }
   }
   &.block-character{
-
+    .block-title{
+      .color-red{
+        text-align: center;
+        padding-right: 18px;
+      }
+      .color-white{
+        float: right;
+      }
+    }
   }
   .button{
     background-color: $color-blue-light1;
@@ -215,5 +216,6 @@ h1, h2, h3, h4, a {
   .block-content{
     margin: 0;
     padding: 0;
+    position: relative;
   }
 }
