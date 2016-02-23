@@ -49,4 +49,7 @@ h1, h2, h3, h4, a { color: #fff; }
 .block-2 .row { margin: 0; }
 .block-2 .block-content { margin: 0; padding: 0; position: relative; }
 
+.block-3 { background-image: url(../images/banner4.png); -webkit-background-size: cover; background-size: cover; }
+.block-3 .row img { width: 100%; }
+
 /*# sourceMappingURL=styles.css.map */
