@@ -1,13 +1,17 @@
 $color-white: #fff;
 $color-black: #000;
 $color-blue: #006ac7;
-$color-dark-blue:#011f41;
+$color-blue-light:#0094ff;
+$color-blue-dark:#011f41;
 
 body{
   font-family: 'Raleway', sans-serif;
   font-size:14px;
   color: $color-white;
   margin: 0;
+}
+h1, h2, h3, h4, a {
+  color: $color-white;
 }
 .navbar-default{
   background-color: $color-blue;
@@ -49,6 +53,9 @@ body{
         padding: 11px 13px 12px 9px;
         font-size: 14px;
         letter-spacing: 0.9px;
+        &:hover, &:active, &:focus{
+          color: #eeeeee;
+        }
       }
       &.gly-icon{
         > a{
@@ -57,10 +64,40 @@ body{
         }
         &.menu-hamburger{
           a{
-            background: $color-dark-blue;
+            background: $color-blue-dark;
             padding: 12px 14px;
           }
         }
+      }
+    }
+  }
+}
+.carousel-control.right, .carousel-control.left{
+  background-image: none;
+}
+.carousel-caption{
+  right: 15%;
+  left: 15%;
+  ul{
+    width: 100%;
+    float: left;
+    width: 100%;
+    max-width: 1087px;
+    float: none;
+    margin: auto;
+    li{
+      width: 30.266789%;
+      display: inline-block;
+      margin-left:4.59981%;
+      &:first-child{
+        margin-left: 0;
+      }
+      a{
+        background-color: #092340;
+        font-weight: 900;
+        padding: 18px 10px;
+        font-size: 2em;
+        letter-spacing: 1px;
       }
     }
   }
