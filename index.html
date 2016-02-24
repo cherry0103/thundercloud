@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Thunder Cloud</title>
-    <link href='https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900' rel='stylesheet'
+          type='text/css'>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
@@ -25,7 +26,8 @@
                 <li><a href="#">3D CHARACTERS</a></li>
                 <li><a href="#">GAME ARTS</a></li>
                 <li><a href="#">ANIMATIONS</a></li>
-                <li class="gly-icon menu-hamburger"><a href="#"><span class="glyphicon glyphicon-menu-hamburger"></span></a></li>
+                <li class="gly-icon menu-hamburger"><a href="#"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
+                </li>
                 <li class="gly-icon"><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
             </ul>
         </div>
@@ -52,13 +54,17 @@
             </div>
         </div>
 
-      <!--  <div class="item">
-            <img src="images/slider/slide2.jpg" alt="slide2"/>
+        <div class="item active">
+            <img src="images/slider/slider-2.png" alt="slide1"/>
             <div class="carousel-caption">
-                <h3>Chicago</h3>
-                <p>Thank you, Chicago - A night we won't forget.</p>
+                <ul class="nav navbar-nav">
+                    <li class="item"><a href="#3D">3D CHARACTERS</a></li>
+                    <li class="item"><a href="#ARTS">GAME ARTS</a></li>
+                    <li class="item"><a href="#ANIMATION">ANIMATIONS</a></li>
+                </ul>
             </div>
-        </div>-->
+        </div>
+
 
     </div>
     <!-- Left and right controls -->
@@ -71,12 +77,12 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-<div class="block-2 characters-block col-md-12">
+<div class="block block-character col-md-12">
     <div class="col-xs-12 col-md-6 block-child">
         <div class="block-title">
             <h2 class="color-red">Our services</h2>
-            <span class="color-blue">3D Character</span>
-            <span class="color-white">Production</span>
+            <p class="color-blue sub-title">3D Character</p>
+            <p class="color-white sub-title">Production</p>
         </div>
         <div class="content text-center">
             <p>Full package! Yes we mean full production from concept to final game asset with game ready animation.
@@ -86,40 +92,42 @@
     </div>
     <img src="images/banner-3.png" alt="Characters"/>
 </div>
-<div class="block-2 game-block col-md-12">
+<div class="block block-game col-md-12">
     <div class="row">
         <div class="col-xs-12 col-md-6 block-content pull-right">
-           <div class="block-child">
-               <div class="block-title">
-                   <h2 class="color-red">Our services</h2>
-                   <span class="color-blue">Game Art</span>
-                   <span class="color-white">Out-Sourcing</span>
-               </div>
-               <div class="content text-center">
-                   <p>Save your time and effort in planning your environments and accessorizes. We can do all hard-surface, weapon, props,
-                       environment,etc… along with detail concept, assets breakdown sheet, master scenes and game ready files.</p>
-                   <a class="button" href="#seemore">See More</a>
-               </div>
-           </div>
+            <div class="block-child">
+                <div class="block-title">
+                    <h2 class="color-red">Our services</h2>
+                    <p class="color-blue sub-title">Game Art</p>
+                    <p class="color-white sub-title">Out-Sourcing</p>
+                </div>
+                <div class="content">
+                    <p>Save your time and effort in planning your environments and accessorizes. We can do all
+                        hard-surface, weapon, props,
+                        environment,etc… along with detail concept, assets breakdown sheet, master scenes and game ready
+                        files.</p>
+                    <a class="button" href="#seemore">See More</a>
+                </div>
+            </div>
             <img src="images/grid/ani2.png" alt="Game">
         </div>
         <div class="col-xs-12 col-md-6 block-content pull-left">
             <img src="images/grid/ani1.png" alt="Game">
         </div>
     </div>
-    <div class="row">
+    <div class="row block-animation">
         <div class="col-xs-12 col-md-6 block-content first">
-           <div class="block-child">
-               <div class="block-title pull-right">
-                   <h2 class="color-red">Our services</h2>
-                   <span class="color-white">Animations</span>
-               </div>
-               <div class="content text-center">
-                   <p>High quality animation made by order by 100% in-house team: cinematic animation,
-                       in-game animation, animation trailer, short animation, animation TVC…</p>
-                   <a class="button" href="#seemore">See More</a>
-               </div>
-           </div>
+            <div class="block-child">
+                <div class="block-title pull-right">
+                    <h2 class="color-red">Our services</h2>
+                    <p class="color-white sub-title">Animations</p>
+                </div>
+                <div class="content">
+                    <p>High quality animation made by order by 100% in-house team: cinematic animation,
+                        in-game animation, animation trailer, short animation, animation TVC…</p>
+                    <a class="button" href="#seemore">See More</a>
+                </div>
+            </div>
             <img src="images/grid/ani3.png" alt="Animation">
         </div>
         <div class="col-xs-12 col-md-6 block-content last">
@@ -127,44 +135,199 @@
         </div>
     </div>
 </div>
-<div class="block-3 block-content col-md-12">
-    <div class="block-child">
-        <div class="block-title text-center">
-            <h2 class="color-red">&</h2>
-            <span class="color-white">Reel</span>
-            <span class="color-blue">Case Studies</span>
+<div class="block block-case block-content-2 col-md-12">
+    <div class="container">
+        <div class="block-child">
+            <div class="block-title text-center">
+                <h2 class="color-red">&amp;</h2>
+                <p class="color-white sub-title">Reel</p>
+                <p class="color-blue sub-title">Case Studies</p>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-4">
-            <img src="images/grid/grid-1.png" alt="Liquidation">
+        <div class="row">
+            <div class="col-sm-4 project-info">
+                <div class="col-sm-12 thumbnail">
+                    <img src="images/grid/grid-1.png" alt="Liquidation">
+                    <div class="info-action">
+                        <div class="color-blue title">LIQUIDATION</div>
+                        <p>Client: Kiwi Brother</p>
+                        <a href="#" class="button pull-right">View project</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-4 project-info">
+                <div class="col-sm-12 thumbnail">
+                    <img src="images/grid/grid-2.png" alt="CROSS REVERIE">
+                    <div class="info-action">
+                        <div class="color-blue title">CROSS REVERIE</div>
+                        <p>Client: Sinxsoft</p>
+                        <a href="#" class="button pull-right">View project</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-4 project-info">
+                <div class="col-sm-12 thumbnail">
+                    <img src="images/grid/grid-3.png" alt="HOSHI REBELLION">
+                    <div class="info-action">
+                        <div class="color-blue title">HOSHI REBELLION</div>
+                        <p>Client: D-Hearts</p>
+                        <a href="#" class="button pull-right">View project</a>
+                    </div>
+                </div>
+
+            </div>
         </div>
-        <div class="col-sm-4">
-            <img src="images/grid/grid-2.png" alt="CROSS REVERIE">
-        </div>
-        <div class="col-sm-4">
-            <img src="images/grid/grid-3.png" alt="HOSHI REBELLION">
+        <div class="col-md-12 text-center">
+            <a href="#" class="button btn bg-red">Load More</a>
         </div>
     </div>
 </div>
-<div class="block-3 block-content col-md-12">
-    <div class="block-child">
-        <div class="block-title text-center">
-            <h1 class="color-blue">Beautiful Design</h1>
-            <span class="color-white">We Create</span>
+<div class="block block-design block-content-2 col-md-12">
+    <div class="container">
+        <div class="block-child">
+            <div class="block-title text-center">
+                <h1 class="color-blue sub-title">Beautiful Design</h1>
+                <p class="color-white sub-title">We Create</p>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-4">
-            <img src="images/grid/grid-1.png" alt="Liquidation">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <p>This long text will explain how beautiful things we created. This long text will explain how
+                    beautiful things we created.
+                    This long text will explain how beautiful things we created. </p>
+            </div>
         </div>
-        <div class="col-sm-4">
-            <img src="images/grid/grid-2.png" alt="CROSS REVERIE">
-        </div>
-        <div class="col-sm-4">
-            <img src="images/grid/grid-3.png" alt="HOSHI REBELLION">
+        <div class="row">
+            <div class="col-sm-4 text-center">
+                <a class="logo-design"><img src="images/logo-design1.png" alt="Logo design"></a>
+                <h3>HIGHEST QUALITY</h3>
+                <div class="sub-content">
+                    <p>We are confident in what we can do. With talented art firector with 10 years experience and
+                        highly skilled artist team
+                        we can guarantee the highest quality products.</p>
+                </div>
+            </div>
+            <div class="col-sm-4 text-center">
+                <a class="logo-design"><img src="images/logo-design2.png" alt="Logo design"></a>
+                <h3>HIGHEST QUALITY</h3>
+                <div class="sub-content">
+                    <p>We are confident in what we can do. With talented art firector with 10 years experience and
+                        highly skilled artist team
+                        we can guarantee the highest quality products.</p>
+                </div>
+            </div>
+            <div class="col-sm-4 text-center">
+                <a class="logo-design"><img src="images/logo-design3.png" alt="Logo design"></a>
+                <h3>HIGHEST QUALITY</h3>
+                <div class="sub-content">
+                    <p>We are confident in what we can do. With talented art firector with 10 years experience and
+                        highly skilled artist team
+                        we can guarantee the highest quality products.</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+<!---->
+<div class="block block-bottom block-content-2 col-md-12">
+    <div class="block-client col-md-12">
+        <div class="container">
+            <div class="block-child">
+                <div class="block-title text-center">
+                    <h1 class="color-white sub-title">Our Clients</h1>
+                    <p class="color-blue sub-title"><span class="heart">&nbsp;</span>US</p>
+                </div>
+            </div>
+            <!--slide client-->
+            <div id="myCarouselClient1" class="carousel slide text-center" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <h4>"This company is the best. I am so happy with the result!"<br><span
+                                style="font-style:normal;">Michael Roe, Vice President, Comment Box</span></h4>
+                    </div>
+                    <div class="item">
+                        <h4>"One word... WOW!!"<br><span style="font-style:normal;">John Doe, Salesman, Rep Inc</span>
+                        </h4>
+                    </div>
+                    <div class="item">
+                        <h4>"Could I... BE any more happy with this company?"<br><span style="font-style:normal;">Chandler Bing, Actor, FriendsAlot</span>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!--slide logo-->
+            <div id="myCarouselClient2" class="carousel slide text-center" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <h4>"This company is the best. I am so happy with the result!"<br><span
+                                style="font-style:normal;">Michael Roe, Vice President, Comment Box</span></h4>
+                    </div>
+                    <div class="item">
+                        <h4>"One word... WOW!!"<br><span style="font-style:normal;">John Doe, Salesman, Rep Inc</span>
+                        </h4>
+                    </div>
+                    <div class="item">
+                        <h4>"Could I... BE any more happy with this company?"<br><span style="font-style:normal;">Chandler Bing, Actor, FriendsAlot</span>
+                        </h4>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Container (Contact Section) -->
+    <div id="contact" class="block-contact col-md-12">
+        <div class="container">
+            <h2 class="text-center">CONTACT</h2>
+            <div class="row">
+                <div class="col-sm-5">
+                    <p>Contact us and we'll get back to you within 24 hours.</p>
+                    <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
+                    <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+                    <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+                </div>
+                <div class="col-sm-7 slideanim">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" name="email" placeholder="Email" type="email"
+                                   required>
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="comments" name="comments" placeholder="Comment"
+                              rows="5"></textarea><br>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <button class="btn button btn-default bg-red" type="submit">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
